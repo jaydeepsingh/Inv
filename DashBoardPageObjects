@@ -1,0 +1,13 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class DashboardPageObjects {
+
+	private static WebElement element = null;
+
+	public static WebElement link_Sites(WebDriver driver) {
+		element = driver.findElement(By.xpath(".//*[@id='sideBarSites']/span[2]"));
+		return element;
+	}
+}
