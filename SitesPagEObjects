@@ -1,0 +1,13 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class SitesPageObjects {
+
+	private static WebElement element = null;
+
+	public static WebElement link_KiranTestsite1(WebDriver driver) {
+		element = driver.findElement(By.xpath(".//*[@id='mp-MxOag']"));
+		return element;
+	}
+}
