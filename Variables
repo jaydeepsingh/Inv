@@ -1,0 +1,6 @@
+
+public class VarialbesUsed {
+
+	public static String username = "user123";
+	public static String password = "Password123";
+}
